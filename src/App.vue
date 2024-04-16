@@ -47,9 +47,9 @@ function changeLanguage(language) {
   currentMonthNames.value = monthNames[language];
 
   if (language === 'en') {
-    currentDayNames.value = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    currentDayNames.value = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   } else if (language === 'ru') {
-    currentDayNames.value = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб']
+    currentDayNames.value = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
   }
   localStorage.setItem('selectedLanguage', language);
 }
